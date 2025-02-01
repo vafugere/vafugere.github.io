@@ -1,0 +1,46 @@
+body {
+    background-color: #252525;
+    color: #E0E0E0;
+    margin: 0;
+}
+header {
+    background-color: #121212;
+    border-bottom: 3px solid #4CAF50;
+    height: 100px;
+}
+.name {
+    color: #4CAF50;
+    font-size: 2em;
+    font-family: Georgia, Times, serif;
+    font-weight: bold;
+    padding-top: 60px;
+    margin-left: 100px;
+}
+main {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 10px;
+}
+.main {
+    flex: 4;
+    height: 100vh;
+}
+.side {
+    flex: 0.7;
+}
+.box-link {
+    display: block;
+    color: #E0E0E0;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    border-bottom: 2px solid #2196F3;
+    background-color: #252525;
+    padding: 10px;
+    margin: 0 0 2px 0;
+}
+.box-link:hover {
+    color: #2196F3;
+}
