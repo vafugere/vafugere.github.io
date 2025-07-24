@@ -22,7 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const imageSets = [
     ['images/gallery/y1.png', 'images/gallery/y2.png'],
     ['images/gallery/sampleform1.png', 'images/gallery/sampleform2.png'],
-    ['images/gallery/practicum1.png', 'images/gallery/practicum2.png', 'images/gallery/practicum3.png']
+    ['images/gallery/practicum1.png', 'images/gallery/practicum2.png', 'images/gallery/practicum3.png'],
+    ['images/gallery/pixel1.png', 'images/gallery/pixel2.png'],
+    ['images/gallery/chat1.png', 'images/gallery/chat2.png']
   ];
 
   galleries.forEach((gallery, i) => {
